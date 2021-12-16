@@ -1,0 +1,255 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* body rules */
+body {
+    font-family: Verdana;
+    font-size: 16px;
+}
+
+header {
+    background-color: white;
+    box-sizing: border-box;
+}
+
+div.mainH3 {
+        text-align: center;
+    padding: 5rem 12rem 3rem 5rem;
+        background-color: pink;
+}
+
+
+
+.left {
+    float: left;
+    color: black;
+    font-size: 25px;
+}
+
+.left p {
+    margin: 20px 0;
+    padding: 0;
+}
+
+
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+    color: black;
+    margin-left: 20px;
+}
+
+ul li.signUp{
+    color: red;
+}
+.right a {
+    display: block;
+    padding: .8rem 0; /*44px min*/
+    color: darkslategrey;
+    text-align: center;
+    text-decoration: none;
+}
+.right a:hover {background-color:lightcyan;}
+
+.clear {
+    clear: both;
+}
+
+main{display: block; padding: 1rem 2%;}
+main h1 {color: $primaryColor;}
+
+
+main figure img {width: 100%;}
+main figure {
+    margin: 0;
+    margin-right: -2%;
+    width: 100%;
+    
+}
+main figcaption {text-align: center; font-size: .8rem;}
+
+.button {
+  background-color:$buttonColor;
+  border-radius: 12px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 150px;
+  cursor: pointer;
+  
+}
+
+
+div.midpoint{
+    text-align: center;
+    padding: 4rem 10rem 4rem 10rem;
+}
+
+div.midpoints{
+    text-align: center;
+    padding: 1rem;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 15px;
+    padding-bottom: 50px;
+
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
+
+
+
+
+
+form label.top input, form label.top select{
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border:solid 1px #999;
+    border-radius: 4px;
+    padding: .5rem;
+    color: $fontColor;
+    width: 100%;
+    max-width: 20rem;
+    background: rgba(0,0,0,0.1);
+    // background-color: pink;
+    margin-bottom: 2rem;
+    height:50px;
+}
+
+form label.top {
+    margin-bottom: 2rem;
+}
+
+form label.bottom input {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border:solid 1px #999;
+    border-radius: 4px;
+    padding: .5rem;
+    color: $fontColor;
+    width: 100%;
+    max-width: 20rem;
+    background: rgba(0,0,0,0.1);
+    height:200px;
+    margin-bottom: 2rem;
+    margin-left:2rem;
+}
+
+form label.style {
+    margin-top:0;
+    margin-left:2rem;
+    font-size: 1rem;
+    color: $fontColor;
+}
+
+
+
+// @mixin important-text {
+//     color: red;
+//     font-size: 25px;
+//     font-weight: bold;
+//     border: 1px solid blue;
+//   }
+  
+//   .danger {
+//     @include important-text;
+//     background-color: green;
+//   }
+
+.danger {
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid blue;
+    background-color: green;
+  }
+
+form input.submitBtn {
+  background-color:$buttonColor;
+  border-radius: 12px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2rem 0 2rem 2%;
+  width: 96%;
+  max-width: 20rem;
+}
+
+
+form label.top input:required {
+    border-left: $primaryColor solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: blue solid 6px;
+}
+
+form label.bottom input:required {
+    margin-left:2rem;
+    margin-top:2rem;
+    border-bottom: $primaryColor solid 6px;
+    
+}
+
+form label.bottom input:required:valid {
+    border-left: green solid 6px;
+}
+
+
+
+form label.file{
+    color:red;
+    padding: 1rem 5%;
+    float: center;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+
+footer {
+    background-color:#003366;
+    // margin:-3rem;
+    text-align: center;
+    height: 39.3vh;
+    width: auto;
+}
+
+.ending{
+        float: right; 
+        margin-left: 2%;
+        margin-right: 7%;
+        height:inherit;
+        width:44.15vh;
+    }
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

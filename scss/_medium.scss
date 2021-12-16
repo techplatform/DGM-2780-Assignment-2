@@ -1,0 +1,150 @@
+
+    // nav li {width: 25%; float: left;}
+    
+    
+    // main figure {
+    //     float: right; 
+    //     width: 48%; 
+    //     margin-left: 2%;
+    //     padding-bottom: .5rem;
+    // }
+    
+    // div.news {
+    //     clear: both;
+    //     column-count: 2;
+    //     column-rule: 1px solid #ddd;
+    // }
+    
+    header, nav, main, footer {
+        max-width: 1200px;
+        margin:auto;
+    }
+    
+    div.mainH1 {
+    padding: 0rem 12rem 5rem 1rem;
+}
+    div.mainH2 {
+        padding: 0rem 1rem 1rem 20rem;
+}
+    div.mainH3 {
+        text-align: center;
+        padding: 0rem 12rem 3rem 5rem;
+}
+    
+    nav {
+        align-items: left;
+    }
+    
+    nav ul {padding-left: 2%;}
+    nav li {width:auto;}
+    nav a {padding: .5rem 1rem;}
+    
+    main figure {
+        float: right; 
+        width: 55%; 
+        // margin-left: 100%;
+        padding-bottom: .5rem;
+        margin-right: -2%;
+    }
+    
+    div.midpoint{
+    text-align: center;
+    padding: 1rem 3rem 4rem 3rem;
+}
+    
+    div.midpoint2{
+        text-align: center;
+        padding: 1rem 3rem 4rem 3rem;
+}
+    
+    .bottom {
+        float: left; 
+        width: 48%; 
+        margin-left: -2%;
+        padding-bottom: .5rem;
+    }
+    
+    
+    .button1 {
+        background-color:$buttonColor;
+        border-radius: 12px;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 0rem 5rem 0rem 3rem;
+        cursor: pointer; 
+    }
+
+    .button2 {
+        background-color:$buttonColor;
+        border-radius: 12px;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 0rem 5rem 0rem 3rem;
+        cursor: pointer; 
+    }
+    
+    .button3 {
+        background-color:$buttonColor;
+        border-radius: 12px;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 5px 15px;
+        cursor: pointer; 
+    }
+    
+    div.news {column-count: 3;
+    }
+
+
+    div.footer {
+        background-color:#003366;
+        height: 39.3vh;
+        margin-left: -3rem;
+        margin-right: -3rem;
+    }
+
+    H2.footerH2{
+        text-align: center;
+        padding-top: 3rem;
+        margin-left: 2rem;
+    }
+
+    p.footerH2p {
+        text-align: center;
+        margin: 0 5rem 1rem 3rem;
+    }
+
+    button.button3{
+        align-items:center;
+        margin-left: 2rem;
+        // color: pink;
+    }
+
+    
+    .bottom2{
+        
+        margin:17rem 1rem 1rem -14rem;
+    }
+    
+    form label.style {
+        margin-top:0;
+        margin-left:12rem;
+        font-size: 1rem;
+        color:$fontColor;
+    }
+    

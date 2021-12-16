@@ -1,0 +1,138 @@
+nav li {width: 25%; float: left;}
+    
+div.left{
+    margin-left: 2.5rem;
+    margin-top: .5rem;
+}  
+
+div.mainH1 {
+    padding: 3rem 12rem 2rem 2rem;
+}
+
+div.mainH2 {
+    padding: 0rem 1rem 1rem 31.5rem;
+}
+
+ div.mainH3 {
+    text-align: center;
+    padding: 5rem 12rem 3rem 5rem;
+        background-color: pink;
+}
+    div.midpoint{
+    text-align: center;
+    padding: 10rem 10rem 4rem 10rem;
+}
+    
+    div.midpoint2{
+    text-align: center;
+    padding: 10rem 10rem 4rem 10rem;
+}
+
+    main figure {
+        float: right; 
+        width: 48%; 
+        margin-left: 2%;
+        padding-bottom: .5rem;
+        margin-right: -2%;
+    }
+    
+    div.bottom {
+        float: left; 
+        width: 48%; 
+        margin-left: -2%;
+        padding-bottom: .5rem;
+    }
+    
+    div.news {
+        clear: both;
+        column-count: 2;
+        column-rule: 1px solid #ddd;
+    }
+    
+    .button1 {
+        background-color:$buttonColor;
+        border-radius: 12px;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 0px 70px;
+        cursor: pointer;
+  
+    }
+    
+    .button2 {
+        background-color: white;
+        border-radius: 12px;
+        border: none;
+        color:$buttonColor;
+        padding: 10px 90px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 10px 9px 0px 60px;
+        cursor: pointer;
+        border: 3px solid$buttonColor;
+    }
+    
+    .button3 {
+        background-color:$buttonColor;
+        border-radius: 12px;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 10px;
+        cursor: pointer;
+  
+    }
+
+    div.footer {
+        background-color:#003366;
+        height: 39.3vh;
+        margin-left: -3rem;
+        margin-right: -3rem;
+    }
+
+    H2.footerH2{
+        text-align: center;
+        padding-top: 7rem;
+        margin-left: 2rem;
+    }
+
+    p.footerH2p {
+        text-align: center;
+        margin: 0 5rem 1rem 3rem;
+    }
+
+    button.button3{
+        align-items:center;
+        margin-left: 2rem;
+    }
+
+    div.right{
+        margin-right: 3rem;
+    }
+
+    // SignUp Sheet
+
+    form label.top input, form label.top select{
+        -webkit-appearance: none;
+        display: block;
+        font-size: 1rem;
+        border:solid 1px #999;
+        border-radius: 4px;
+        padding: .5rem;
+        color:$fontColor;
+        width: 100%;
+        max-width: 20rem;
+        background: rgba(0,0,0,0.1);
+        margin-left:2rem;
+    }
